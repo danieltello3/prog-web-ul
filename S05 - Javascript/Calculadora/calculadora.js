@@ -25,6 +25,8 @@ const clean = () => {
    document.getElementById("inputA").value = "";
    document.getElementById("inputB").value = "";
    document.getElementById("resultado").value = "";
+   resultados = [];
+   textArea.innerHTML = "";
 };
 
 document.getElementById("btnMult").onclick = function () {
